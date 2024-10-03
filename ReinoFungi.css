@@ -1,0 +1,111 @@
+/* Estilo general para el cuerpo del sitio web */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E1; /* Amarillo pálido xdxd*/
+    color: #4F4F4F;
+}
+
+.volver {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: none; 
+    border: none;
+    border-radius: 5px;
+    background-color: #D9A799;
+}
+
+.btn:hover {
+    background-color: brown;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #D9A799; /* Rojo pálido, color inspirado en el champiñón de mamario bros xd*/
+    color: white;
+    box-shadow: 1px 2px 5px black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para secciones */
+section {
+    padding: 20px;
+    text-align: justify;
+}
+
+/* Estilo para los títulos principales jeje*/
+h2 {
+    color: #D97965; /* Rojo pálido para los títulos :3*/
+    border-bottom: 2px solid #D97965; /* Línea decorativa debajo del título */
+    padding-bottom: 5px;
+}
+
+/* Estilo para los subtítulos de los hongos al estilo classic*/
+h3 {
+    color: #A05146; /* Rojo más oscuro para los subtítulos de los ejemplos de hongos para resaltar*/
+    margin-top: 20px;
+}
+
+/* Estilo de los párrafos para asegurar legibilidad del texto*/
+p {
+    line-height: 1.6;
+}
+
+/* Estilo para las imágenes de los hongos 10 ejemplares*/
+img {
+    max-width: 100%; /* Las imágenes ocupan el 35% del ancho disponible, pero no más grandes que el contenedor */
+    height: 200px;
+    display: block;
+    margin-top: 10px;
+    margin-right: auto ;
+    margin-left: auto;
+    border: 3px solid #D9A799; /* Borde rojo pálido alrededor de las imágenes xd*/
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #A05146; /* Color más oscuro inspirado en los tonos de champiñón kasjaks*/
+    color: white;
+    padding: 6px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil para que resalte y se vea original*/
+}
+
+/* Responsividad para pantallas pequeñas :v*/
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    img {
+        border-width: 2px;
+    }
+}
